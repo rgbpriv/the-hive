@@ -1,3 +1,8 @@
 Thumbs.db
 Desktop.ini
 *.log
+
+# Local scratch + server deploy tooling — contains server connection
+# details; must NOT be committed to the public repo.
+_deploy/
+/_*
