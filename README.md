@@ -63,6 +63,18 @@ Derived directly from `AH Design Guideline.svg`:
 
 Hero → Message to the Pillars → The Arcane Standard (Software / IoT / AI) → Proof of Reliability (Fanmire.com, Bongshal.com, Zabai.no) → The Digital AMC → Margin-Leak Check → Leadership → Partnership → Contact.
 
+## Photography
+
+Real industry imagery (per the brand guideline's "real industrial assets" direction), self-hosted under `site/assets/photos/`. All are free for commercial use under the [Unsplash License](https://unsplash.com/license) (no attribution required):
+
+- `rmg-factory.jpg` — RMG production floor, Bangladesh (Ben Issac)
+- `dhaka-skyline.jpg` — Aerial view of Dhaka (Andy Bridge)
+- `retail-market.jpg` — Market traders, Cumilla, Bangladesh (Mehedi Hasan)
+- `warehouse.jpg` — Warehouse aisles (Phillip Flores)
+- `call-center.jpg` — Customer support agent (Vagaro)
+- `mechanic.jpg` — Motorcycle repair shop (Bernd Dittrich)
+- `dhaka-night.jpg` — Dhaka at night (Radowan Nakif Rehan)
+
 ## Contact
 
 - **Email:** contact@arcanehive.com
