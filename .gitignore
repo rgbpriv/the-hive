@@ -6,3 +6,7 @@ Desktop.ini
 # details; must NOT be committed to the public repo.
 _deploy/
 /_*
+
+# Personal resumes / PII — keep out of the public repo
+/Ragib.md
+/SSA.md
