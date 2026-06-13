@@ -669,6 +669,26 @@ a.team-card{ text-decoration:none; color:inherit; display:block; cursor:pointer;
 .team-card:hover .team-view svg, .team-card:focus-visible .team-view svg{ transform:translateX(5px); }
 html.dark .team-hint{ color:var(--gray-400); }
 
+/* "Meet the full team" CTA on the homepage leadership section */
+.team-cta{ margin-top:clamp(36px,5vw,52px); text-align:center; }
+.team-cta .btn svg{ width:20px; height:20px; }
+
+/* full team directory page (/team/) */
+.team-page-hero{ padding:clamp(104px,13vw,150px) 0 clamp(8px,3vw,24px); background:var(--bg); }
+html.dark .team-page-hero{ background:#101120; }
+.team-page-hero .sec-sub{ max-width:700px; }
+.team-page-section{ padding:clamp(32px,5vw,52px) 0 clamp(44px,6vw,76px); background:var(--bg); }
+.team-page-section.alt{ background:var(--white); }
+html.dark .team-page-section{ background:#101120; }
+html.dark .team-page-section.alt{ background:#15172A; }
+.team-group-title{
+  font-size:.95rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--orange-deep); margin:0 0 26px; display:flex; align-items:center; gap:16px;
+}
+.team-group-title::after{ content:""; flex:1; height:1px; background:rgba(7,34,57,.12); }
+html.dark .team-group-title{ color:var(--orange); }
+html.dark .team-group-title::after{ background:rgba(255,255,255,.12); }
+
 /* ---- profile page ---- */
 .pf-nav{
   position:sticky; top:0; z-index:100;
