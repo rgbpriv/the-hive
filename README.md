@@ -69,9 +69,9 @@ Real industry imagery (per the brand guideline's "real industrial assets" direct
 
 - `rmg-factory.jpg` — RMG production floor, Bangladesh (Ben Issac)
 - `dhaka-skyline.jpg` — Aerial view of Dhaka (Andy Bridge)
-- `retail-market.jpg` — Market traders, Cumilla, Bangladesh (Mehedi Hasan)
+- `software-dev.jpg` — Software development office, Dhaka, Bangladesh (Radowan Nakif Rehan)
 - `warehouse.jpg` — Warehouse aisles (Phillip Flores)
-- `call-center.jpg` — Customer support agent (Vagaro)
+- `ai-tech.jpg` — AI microchip on a circuit board (Omar Lopez-Rincon)
 - `mechanic.jpg` — Motorcycle repair shop (Bernd Dittrich)
 - `dhaka-night.jpg` — Dhaka at night (Radowan Nakif Rehan)
 
