@@ -1,5 +1,5 @@
 /* ============================================================
-   ARCANE HIVE — design system from AH Design Guideline.svg
+   ARCANE HIVE - design system from AH Design Guideline.svg
    Palette: orange #F97316 / #E67113 · navy #072239 / #02253B
             dark #1C1C2E / #2B2D42 / #2E2E4A · grays · light
    Type:    Noto Sans (brand) · Hind Siliguri (Bengali)
@@ -365,6 +365,14 @@ html.dark .theme-toggle .icon-moon{ display:none; }
 }
 .stat-count{ color:var(--orange-deep); font-weight:900; }
 
+/* ---------- delivered portfolio ---------- */
+.portfolio{ background:var(--bg); }
+.port-cat{ margin-bottom:clamp(40px,5vw,58px); }
+.port-cat:last-child{ margin-bottom:0; }
+.port-cat .team-group-title{ margin-bottom:24px; }
+.svc-card.no-photo .svc-icon{ margin-top:0; }
+.svc-card.no-photo h3{ font-size:1.2rem; }
+
 /* ---------- AMC (dark) ---------- */
 .amc{
   position:relative; background:var(--ink); color:#EDEDED; overflow:hidden;
@@ -567,7 +575,7 @@ html.dark .theme-toggle .icon-moon{ display:none; }
 .footer-copy{ font-size:.85rem; margin:18px 0 0; color:var(--gray-500); }
 
 /* ============================================================
-   DARK MODE — html.dark
+   DARK MODE - html.dark
    Light surfaces deepen; brand dark sections stay anchored.
    ============================================================ */
 html.dark body{ background:#101120; color:#E8E9F0; }
@@ -604,7 +612,7 @@ html.dark .btn-ghost:hover{ color:var(--orange); border-color:var(--orange); }
 
 /* light sections -> deep surfaces */
 html.dark .pillars, html.dark .proof, html.dark .leadership{ background:#15172A; }
-html.dark .standard, html.dark .audit, html.dark .partner{ background:#101120; }
+html.dark .standard, html.dark .audit, html.dark .partner, html.dark .portfolio{ background:#101120; }
 html.dark .pillars-copy .lead strong, html.dark .hex-point strong,
 html.dark .partner-copy .lead{ color:#FFFFFF; }
 html.dark .hex-point, html.dark .partner-copy p{ color:#B9BAC6; }
@@ -639,7 +647,7 @@ html.dark .audit-opt.picked{ background:rgba(249,115,22,.12); border-color:var(-
 html.dark .audit-opt .bn{ color:var(--gray-400); }
 html.dark .audit-r-eyebrow{ color:var(--orange); }
 
-/* team cards: already dark — add separation */
+/* team cards: already dark - add separation */
 html.dark .team-card{ border:1px solid rgba(255,255,255,.09); }
 
 /* contact form */
@@ -656,7 +664,7 @@ html.dark .form-done{ color:#4ADE80; }
 html.dark .eyebrow{ color:var(--orange); }
 
 /* ============================================================
-   TEAM — clickable directory cards + individual profile pages
+   TEAM - clickable directory cards + individual profile pages
    ============================================================ */
 a.team-card{ text-decoration:none; color:inherit; display:block; cursor:pointer; }
 .team-hint{ font-size:1.05rem; color:var(--gray-500); margin:14px 0 0; }

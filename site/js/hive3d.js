@@ -1,4 +1,4 @@
-// Arcane Hive — 3D honeycomb field (hero background)
+// Arcane Hive - 3D honeycomb field (hero background)
 // Instanced hexagonal prisms in brand colors, gentle wave + pointer ripple.
 
 const canvas = document.getElementById('hive-canvas');

@@ -1,4 +1,4 @@
-// Arcane Hive — interactions
+// Arcane Hive - interactions
 (function () {
   'use strict';
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -98,8 +98,8 @@
         ['orders',  'Slow, error-prone orders & billing', 'অর্ডারে ভুল ও দেরি'],
         ['online',  'Customers can’t find us online', 'অনলাইনে উপস্থিতি নেই']
       ],
-      title: 'Software Development — Retail Modernization',
-      body: 'We build systems that solve the unorganized nature of retail: complex inventory management, localized logistics, and a seamless shopping experience for the Bangladeshi consumer. We turn scattered stock into a streamlined digital storefront — proven with Bongshal.com, a high-traffic online bike parts shop.'
+      title: 'Software Development: Retail Modernization',
+      body: 'We build systems that solve the unorganized nature of retail: complex inventory management, localized logistics, and a seamless shopping experience for the Bangladeshi consumer. We turn scattered stock into a streamlined digital storefront, proven with Bongshal.com, a high-traffic online bike parts shop.'
     },
     factory: {
       concerns: [
@@ -107,8 +107,8 @@
         ['energy',  'Electricity costs keep climbing', 'বিদ্যুৎ খরচ বাড়ছে'],
         ['visibility', 'No real visibility into the floor', 'ফ্লোরে নজরদারি নেই']
       ],
-      title: 'IoT Solutions — Smart Monitoring',
-      body: 'Smart monitoring for warehouses and factories, built to prevent theft and optimize energy usage. We treat your digital infrastructure with the same respect you treat your physical assets — secure, updated, and fast, always.'
+      title: 'IoT Solutions: Smart Monitoring',
+      body: 'Smart monitoring for warehouses and factories, built to prevent theft and optimize energy usage. We treat your digital infrastructure with the same respect you treat your physical assets: secure, updated, and fast, always.'
     },
     service: {
       concerns: [
@@ -116,8 +116,8 @@
         ['overhead','Operator team overhead is too heavy', 'অপারেটর খরচ বেশি'],
         ['slow',    'Slow responses are losing customers', 'ধীর সাড়া, ক্রেতা হারাচ্ছি']
       ],
-      title: 'AI Integration — Call Center Automation',
-      body: 'Our AI-based call center automation tool provides reliable, instant call handling — drastically improving response times while significantly reducing the overhead costs of large-scale operator teams.'
+      title: 'AI Integration: Call Center Automation',
+      body: 'Our AI-based call center automation tool provides reliable, instant call handling, drastically improving response times while significantly reducing the overhead costs of large-scale operator teams.'
     }
   };
 
@@ -184,7 +184,7 @@
 
       if (firstBad) { firstBad.focus(); return; }
 
-      const subject = encodeURIComponent('Callback request — ' + name.value.trim());
+      const subject = encodeURIComponent('Callback request from ' + name.value.trim());
       const body = encodeURIComponent(
         `Name: ${name.value.trim()}\nPhone: ${phone.value.trim()}\nBusiness sector: ${sector.value || 'Not specified'}\n\nPlease call me back to discuss optimizing my operations.`
       );
