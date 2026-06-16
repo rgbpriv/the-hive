@@ -63,17 +63,22 @@ Derived directly from `AH Design Guideline.svg`:
 
 Hero → Message to the Pillars → The Arcane Standard (Software / IoT / AI) → Proof of Reliability (Fanmire.com, Bongshal.com, Zabai.no) → The Digital AMC → Margin-Leak Check → Leadership → Partnership → Contact.
 
-## Photography
+## Imagery
 
-Real industry imagery (per the brand guideline's "real industrial assets" direction), self-hosted under `site/assets/photos/`. All are free for commercial use under the [Unsplash License](https://unsplash.com/license) (no attribution required):
+Self-hosted under `site/assets/photos/`.
+
+**Real documentary photography** — free for commercial use under the [Unsplash License](https://unsplash.com/license) (no attribution required):
 
 - `rmg-factory.jpg` — RMG production floor, Bangladesh (Ben Issac)
 - `dhaka-skyline.jpg` — Aerial view of Dhaka (Andy Bridge)
-- `software-dev.jpg` — Software development office, Dhaka, Bangladesh (Radowan Nakif Rehan)
-- `warehouse.jpg` — Warehouse aisles (Phillip Flores)
-- `ai-tech.jpg` — AI microchip on a circuit board (Omar Lopez-Rincon)
-- `mechanic.jpg` — Motorcycle repair shop (Bernd Dittrich)
 - `dhaka-night.jpg` — Dhaka at night (Radowan Nakif Rehan)
+
+**AI-generated** — created locally with Stable Diffusion XL (RealVisXL V5.0) via ComfyUI, prompt-tuned to the Arcane Hive palette (orange `#F97316` / navy `#072239`). Royalty-free, no licensing constraints:
+
+- `software-dev.jpg` — Developers at a multi-monitor code workstation
+- `warehouse.jpg` — Smart-logistics warehouse aisle
+- `ai-tech.jpg` — AI microchip on a circuit board
+- `mechanic.jpg` — Workshop maintenance (the "Digital AMC" metaphor)
 
 ## Contact
 
