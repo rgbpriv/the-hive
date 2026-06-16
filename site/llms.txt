@@ -1,0 +1,25 @@
+# Arcane Hive
+
+> Dhaka-based technology company delivering Software, IoT, and AI development with a singular focus: operational efficiency and measurable ROI for Bangladesh's established businesses and international partners. Founded 2017. We don't just build tech, we protect your profit.
+
+## Services
+- Software Development: retail modernization, digital commerce, inventory management, localized logistics
+- IoT Solutions: smart monitoring for warehouses and factories, theft prevention, energy optimization, real-time asset visibility
+- AI Integration: call-center automation and reliable high-volume customer operations
+- Digital AMC (Annual Maintenance Contract): ongoing software management, security patching, and performance upkeep
+
+## Pages
+- [Home](https://arcane-hive.com/): company overview, the Arcane Standard, delivered portfolio, leadership
+- [Projects](https://arcane-hive.com/projects/): full delivered portfolio across web platforms, IoT devices, mobility solutions, and business solutions
+- [Team](https://arcane-hive.com/team/): leadership and team profiles
+
+## Selected delivered work
+- Web platforms: Fanmire.com (international), Bongshal.com (Bangladesh marketplace), Zabai.no (Europe)
+- IoT devices: AI-Integrated Juice Cart (WellSpring), Spice Sun-Drying Machine (iFarmer/BARI/DAM), AI Desk Assistant
+- Mobility: EV Ride-Sharing App (Jaiben), EV Battery-Swap Conversion, EV Delivery Van R&D (Daraz/DigiBox)
+- Business: Kiosk & POS Software, AI-Enabled CRM, Handheld Payment Solutions
+
+## Contact
+- Email: contact@arcanehive.com
+- Phone: +88 0173 7233 902
+- Location: Dhaka, Bangladesh
