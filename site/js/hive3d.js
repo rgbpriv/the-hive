@@ -9,8 +9,9 @@ init().catch(() => { if (canvas) canvas.style.display = 'none'; });
 async function init() {
   const THREE = await import('three');
 
-  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
-  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  const isMobile = innerWidth < 768;
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: !isMobile, alpha: true, powerPreference: 'high-performance' });
+  renderer.setPixelRatio(Math.min(devicePixelRatio, isMobile ? 1.5 : 2));
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(38, 1, 0.1, 200);
@@ -46,7 +47,7 @@ async function init() {
   // hex grid (pointy spacing on XZ plane)
   const R = 0.92;                       // hex radius
   const W = Math.sqrt(3) * R;           // horizontal step
-  const COLS = 30, ROWS = 16;
+  const COLS = isMobile ? 18 : 30, ROWS = isMobile ? 11 : 16;
   const COUNT = COLS * ROWS;
 
   const geo = new THREE.CylinderGeometry(R * 0.94, R * 0.94, 1, 6);
@@ -139,9 +140,13 @@ async function init() {
     .observe(canvas);
 
   const clock = new THREE.Clock();
-  function tick() {
+  const FRAME_MS = 1000 / 30;          // cap to ~30fps to cut main-thread cost
+  let lastFrame = 0;
+  function tick(now) {
     requestAnimationFrame(tick);
     if (frozen) return;
+    if (now - lastFrame < FRAME_MS) return;
+    lastFrame = now;
     resize();
     const t = clock.getElapsedTime();
     pointer.strength *= 0.97;
