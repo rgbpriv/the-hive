@@ -15,6 +15,9 @@ Every engagement starts from your business outcome and works backward to the rig
 - [Home](https://arcane-hive.com/): company overview, the Arcane Standard, delivered portfolio, leadership
 - [Services](https://arcane-hive.com/services/): hub for software, IoT, and AI development services
 - [Projects](https://arcane-hive.com/projects/): full delivered portfolio across web platforms, IoT devices, mobility solutions, and business solutions
+- [Blog / Insights](https://arcane-hive.com/blog/): practical articles on software, IoT, and AI for businesses in Bangladesh
+  - [How to choose a software development company in Bangladesh](https://arcane-hive.com/blog/choosing-software-development-company-bangladesh/)
+  - [How IoT monitoring cuts warehouse theft and loss in Bangladesh](https://arcane-hive.com/blog/iot-monitoring-warehouse-theft-bangladesh/)
 - [Team](https://arcane-hive.com/team/): leadership and team profiles
   - [Ragib Ehsan](https://arcane-hive.com/team/ragib/)
   - [Sadat](https://arcane-hive.com/team/sadat/)
