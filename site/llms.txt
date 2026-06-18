@@ -1,23 +1,37 @@
 # Arcane Hive
 
-> Dhaka-based technology company delivering Software, IoT, and AI development with a singular focus: operational efficiency and measurable ROI for Bangladesh's established businesses and international partners. Founded 2017. We don't just build tech, we protect your profit.
+> Dhaka-based technology company delivering Software, IoT, and AI development with a singular focus: operational efficiency and measurable ROI for Bangladesh's established businesses and international partners. Founded 2017. Twelve projects delivered and actively maintained. We don't just build tech, we protect your profit.
 
 ## Services
-- Software Development: retail modernization, digital commerce, inventory management, localized logistics
-- IoT Solutions: smart monitoring for warehouses and factories, theft prevention, energy optimization, real-time asset visibility
-- AI Integration: call-center automation and reliable high-volume customer operations
-- Digital AMC (Annual Maintenance Contract): ongoing software management, security patching, and performance upkeep
+- [Software Development](https://arcane-hive.com/services/software-development/): custom retail and e-commerce platforms, inventory and logistics systems, web apps and internal tools, all engineered to international standards for Bangladeshi businesses.
+- [IoT Solutions](https://arcane-hive.com/services/iot-solutions/): smart monitoring for warehouses and factories, theft prevention, energy optimization, and locally researched custom IoT devices.
+- [AI Integration](https://arcane-hive.com/services/ai-integration/): call-center automation, AI-enabled CRM, conversational assistants, and AI that plugs into your existing stack to cut response times and overhead.
+- Digital AMC (Annual Maintenance Contract): ongoing software management, security patching, and performance upkeep so platforms keep earning their place after launch.
+
+## How we work — The Arcane Standard
+Every engagement starts from your business outcome and works backward to the right architecture; we build to international quality standards chosen for your problem; solutions are tuned to Bangladeshi operations and user behavior from day one; and our Digital AMC keeps what we ship secure, updated, and fast for the long term.
 
 ## Pages
 - [Home](https://arcane-hive.com/): company overview, the Arcane Standard, delivered portfolio, leadership
+- [Services](https://arcane-hive.com/services/): hub for software, IoT, and AI development services
 - [Projects](https://arcane-hive.com/projects/): full delivered portfolio across web platforms, IoT devices, mobility solutions, and business solutions
 - [Team](https://arcane-hive.com/team/): leadership and team profiles
+  - [Ragib Ehsan](https://arcane-hive.com/team/ragib/)
+  - [Sadat](https://arcane-hive.com/team/sadat/)
+  - [Zaid Fahad](https://arcane-hive.com/team/zaid/) — "The Hexweaver"
+  - [Arafat](https://arcane-hive.com/team/arafat/)
 
 ## Selected delivered work
-- Web platforms: Fanmire.com (international), Bongshal.com (Bangladesh marketplace), Zabai.no (Europe)
-- IoT devices: AI-Integrated Juice Cart (WellSpring), Spice Sun-Drying Machine (iFarmer/BARI/DAM), AI Desk Assistant
+- Web platforms: Fanmire.com (international), Bongshal.com (Bangladesh automotive-parts marketplace, built and actively maintained by Arcane Hive), Zabai.no (Europe)
+- IoT devices: AI-Integrated Juice Cart (WellSpring, a Bangladesh first), Spice Sun-Drying Machine (iFarmer/BARI/Department of Agricultural Marketing, a Bangladesh first), AI Desk Assistant
 - Mobility: EV Ride-Sharing App (Jaiben), EV Battery-Swap Conversion, EV Delivery Van R&D (Daraz/DigiBox)
 - Business: Kiosk & POS Software, AI-Enabled CRM, Handheld Payment Solutions
+
+## Facts
+- Founded: 2017
+- Headquarters: Dhaka, Bangladesh
+- Projects delivered and maintained: 12
+- Areas served: Bangladesh and international partners (Europe, Norway)
 
 ## Contact
 - Email: contact@arcanehive.com
