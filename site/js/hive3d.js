@@ -140,20 +140,22 @@ async function init() {
     .observe(canvas);
 
   const clock = new THREE.Clock();
-  const FRAME_MS = 1000 / 30;          // cap to ~30fps to cut main-thread cost
-  let lastFrame = 0;
-  function tick(now) {
+  let elapsed = 0;
+  // Render every animation frame (vsync) for smooth pointer motion. Time-based
+  // smoothing keeps the feel identical across 60/120/144Hz displays.
+  function tick() {
     requestAnimationFrame(tick);
     if (frozen) return;
-    if (now - lastFrame < FRAME_MS) return;
-    lastFrame = now;
+    const dt = Math.min(clock.getDelta(), 0.05);   // clamp big jumps (e.g. tab switch)
+    elapsed += dt;
     resize();
-    const t = clock.getElapsedTime();
-    pointer.strength *= 0.97;
-    camera.position.x += (targetCamX - camera.position.x) * 0.04;
-    camera.position.y += (targetCamY - camera.position.y) * 0.04;
+    const f = dt * 60;                               // frames-equivalent at 60fps
+    pointer.strength *= Math.pow(0.97, f);
+    const camK = 1 - Math.pow(0.96, f);              // ~0.04 per 60fps frame
+    camera.position.x += (targetCamX - camera.position.x) * camK;
+    camera.position.y += (targetCamY - camera.position.y) * camK;
     camera.lookAt(2, 0, 0);
-    layout(t);
+    layout(elapsed);
     renderer.render(scene, camera);
   }
 
