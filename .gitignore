@@ -10,7 +10,10 @@ _deploy/
 # Personal resumes / PII — keep out of the public repo
 /Ragib.md
 /SSA.md
-/CV.pdf
+/*.pdf
 
 # Internal docs & markdown notes — keep out of the public repo
 /*.md
+
+# Design tokens — kept local for now
+/design/
